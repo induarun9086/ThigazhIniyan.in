@@ -1,17 +1,18 @@
 body { margin: 0px; padding: 0px; background-color: black; color: #333333; font-family: 'Handlee'; font-size: 12px; 
-       text-shadow: 1px 1px #cccccc; background-image: url(/imgs/bg.jpg); background-size: 100% 100%;}
+       text-shadow: 1px 1px #cccccc; background-image: url(./imgs/bg.jpg); background-size: 100% 100%;}
 img { -webkit-filter: drop-shadow(1px 1px 3px #999999) drop-shadow(-1px -1px 3px #999999);
        filter: drop-shadow(1px 1px 3px #999999)  drop-shadow(-1px -1px 3px #999999); }
 .group {position: relative; top: 0px; left: 0px; perspective: 1px; transform-style: preserve-3d; height: 100vh; overflow-y: scroll; overflow-x: hidden; }
 .slide {position: absolute; left: 0px; top: 0px; padding: 0px; margin: 33%; text-align: center;  }
 .bgslide {position: absolute; left: 0px; top: 0px; padding: 0px; margin: 0px; width: 100%; height: 90vh; text-align: center;  }
 .fgcard {top: 0vh; transform: translateZ(0); background-color: #696969; margin: 0px; height: 100%; width: 100%; z-index:2; 
-         box-shadow: 0px 0px 18px #cccccc; font-size: 300%; background-image: url("/imgs/cardbg.jpg"); background-size: 100% 100%; }
+         box-shadow: 0px 0px 18px #cccccc; font-size: 300%; background-image: url("./imgs/cardbg.jpg"); background-size: 100% 100%; }
 .bgcard {transform: translateZ(-1px) scale(2);}
 .bgimg {transform: translateZ(-1px) scale(2); background-size: 100% 100%; background-repeat: no-repeat;}
 .centerdiv {position: relative; top: 50%; transform: translateY(-50%); margin-left: auto; margin-right: auto; }
 .presenters {font-family: Pacifico; font-size: 180%; text-shadow: 3px 3px #000000, -3px -3px #000000; color: #0081ec; }
-.title {font-family: Pacifico; font-size: 420%; -webkit-mask-image: url("/imgs/fontbg.png"); mask-image: url("/imgs/fontbg.png"); -webkit-mask-size: 1%; mask-size: 1%;
+.title {font-family: Pacifico; font-size: 420%; -webkit-mask-image: url("./imgs/fontbg.png"); mask-image: url("./imgs/fontbg.png"); -webkit-mask-size: 1%; mask-size: 1%;
         text-shadow: 3px 3px #000000, -3px -3px #000000; color: #db7200;}
-.subtitle {font-family: Pacifico; font-size: 150%; -webkit-mask-image: url("/imgs/fontbg.png"); mask-image: url("/imgs/fontbg.png"); -webkit-mask-size: 1%; mask-size: 1%;
+.subtitle {font-family: Pacifico; font-size: 150%; -webkit-mask-image: url("./imgs/fontbg.png"); mask-image: url("./imgs/fontbg.png"); -webkit-mask-size: 1%; mask-size: 1%;
         text-shadow: 2px 2px #000000, -1px -1px #000000; color: #969696;}
+.topLink { font-size: 300%; text-shadow: 0px 0px black; font-family: calibri; }
